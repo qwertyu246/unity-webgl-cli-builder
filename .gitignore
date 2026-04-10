@@ -1,0 +1,27 @@
+# Ignore everything in these folders...
+logs/*
+unity-workspaces/*
+unity-builds/*
+
+# ...but keep the folders themselves and the .gitkeep files
+!logs/
+!logs/.gitkeep
+
+!unity-workspaces/
+!unity-workspaces/.gitkeep
+
+!unity-builds/
+!unity-builds/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+
+# --- Optional local config ---
+*.local.json
